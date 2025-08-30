@@ -13,7 +13,6 @@ export const CONTACT_LINKS: NavItem[] = [
     label: '37°47\'33.4"N 122°24\'18.6"W',
     href: 'https://maps.app.goo.gl/SLr5HYJKua6zKcZg7',
   },
-  
   {
     label: 'Github',
     href: 'https://github.com/dvlprasher5',
