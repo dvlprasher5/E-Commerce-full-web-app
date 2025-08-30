@@ -27,7 +27,14 @@ export async function Footer() {
             invert
           />
           <p className="text-base">
-            {new Date().getFullYear()}© — All rights reserved by @Najeeb Ul Hassan
+            {new Date().getFullYear()}© — All rights reserved by <a 
+  href="https://www.instagram.com/yru_waitingasheryy/" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="cursor-pointer text-blue-300 hover:underline"
+>
+  Najeeb Ul Hassan
+</a>
           </p>
         </div>
       </div>
