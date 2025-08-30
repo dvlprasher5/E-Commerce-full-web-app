@@ -27,7 +27,7 @@ export async function Footer() {
             invert
           />
           <p className="text-base">
-            {new Date().getFullYear()}© — All rights reserved
+            {new Date().getFullYear()}© — All rights reserved by @Najeeb Ul Hassan
           </p>
         </div>
       </div>
