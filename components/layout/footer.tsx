@@ -16,25 +16,29 @@ export async function Footer() {
             className="max-md:hidden"
             align="right"
           />
+          
           <span className="mt-3 italic font-semibold md:hidden">
             Refined. Minimal. Never boring.
           </span>
         </div>
+
         <div className="flex justify-between max-md:contents text-muted-foreground">
           <SidebarLinks
             className="max-w-[450px] w-full max-md:flex-col"
             size="base"
             invert
           />
+
           <p className="text-base">
-            {new Date().getFullYear()}© — All rights reserved by <a 
-  href="https://www.instagram.com/yru_waitingasheryy/" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="cursor-pointer text-blue-300 hover:underline"
->
-  Najeeb Ul Hassan
-</a>
+            {new Date().getFullYear()}© — All rights reserved by{" "}
+            <a
+              href="https://www.upwork.com/freelancers/~0128b1bb29e66572ef?mp_source=share"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer text-blue-300 hover:underline"
+            >
+              Najeeb Ul Hassan
+            </a>
           </p>
         </div>
       </div>
